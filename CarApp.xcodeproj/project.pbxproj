@@ -10,9 +10,22 @@
 		FAAE14292F45325E00FA5212 /* CarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FA904D532F45EE0A0041A3A4 /* Exceptions for "CarApp" folder in "CarApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FAAE14282F45325E00FA5212 /* CarApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		FAAE142B2F45325E00FA5212 /* CarApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FA904D532F45EE0A0041A3A4 /* Exceptions for "CarApp" folder in "CarApp" target */,
+			);
 			path = CarApp;
 			sourceTree = "<group>";
 		};
@@ -254,6 +267,8 @@
 				DEVELOPMENT_TEAM = H9JXH336V5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -286,6 +301,8 @@
 				DEVELOPMENT_TEAM = H9JXH336V5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
