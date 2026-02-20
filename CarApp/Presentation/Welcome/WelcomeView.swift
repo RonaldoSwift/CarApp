@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct WelcomeView: View {
     var body: some View {
         ZStack {
             Color(Color.colorFondoHome)
@@ -52,5 +52,5 @@ struct HomeView: View {
 }
 
 #Preview {
-    HomeView()
+    WelcomeView()
 }
